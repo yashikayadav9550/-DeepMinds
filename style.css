@@ -1,0 +1,67 @@
+body {
+    
+    color: rgb(83, 25, 2);  
+    background-image:url(pexels-googledeepmind-17485657.jpg) ;         
+    margin: 2; /* Remove default margin */
+    height: 100vh; /* Full viewport height */
+}
+
+h1 {
+    font-size: 30px;       
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;     /* Centers the text */
+}
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.button {
+    padding: 10px 20px;     /* Adds padding */
+    background-color: blue;  /* Sets background color */
+    color: rgb(46, 3, 3);            /* Sets text color */
+}
+h2 {
+    font-size:30px;
+font-family: fantasy;
+}
+ .highlight {
+            background-color: rgb(213, 220, 98); /* Set the background color */
+            padding: 10px; /* Add some padding */
+    
+        }
+
+.text-box {
+    border:10px solid #2f5cc4; /* Blue border */
+    padding: 50px; /* Space inside the box */
+    background-color: #b7f1f1fe; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    font-size: 18px; /* Text size */
+    text-align: center; /* Center text */
+   margin: 100px;
+   
+    
+    
+
+}
+.animated-box {
+    width: 200px;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:30px;
+    margin-top:70px;
+    animation: bounce 2s infinite; /* Apply the animation */
+}
+/* Define the keyframes for the bounce effect */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0); /* Original position */
+    }
+    40% {
+        transform: translateY(-30px); /* Move up */
+    }
+    60% {
+        transform: translateY(-15px); /* Move down */
+    }
